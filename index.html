@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="background">
+
+    <div class="top"> </div>
+    <div class="bottom">
+      <div class="grid-container">
+
+        <div class="smd-info">
+          <div class="v-num">Social Media Dashboard</div>
+          <div class="v-text">Total Followers: 23,004 </div>     
+        </div>
+  
+        <div class="dark-mode">
+          <div class="v-text">Dark Mode</div>
+          <label class="switch">
+            <input id="btn" type="checkbox"></input>
+            <span class="slider round"></span>
+          </label>
+        </div>
+  
+        <div class="dashboard facebook">
+          <div class="d-icon">
+            <img src="images/icon-facebook.svg" alt="">
+            <div class="v-text">@nathanf</div>
+          </div>
+          <div class="d-num">1987</div>
+          <div class="d-text">Followers</div>
+          <div class="icon-up"><img src="images/icon-up.svg" alt=""> 12 Today</div>
+        </div>
+  
+        <div class="dashboard twitter">
+          <div class="d-icon">
+            <img src="images/icon-twitter.svg" alt="">
+            <div class="v-text">@nathanf</div>
+          </div>
+          <div class="d-num">1044</div>
+          <div class="d-text">Followers</div>
+          <div class="icon-up"><img src="images/icon-up.svg" alt=""> 99 Today</div>
+        </div>
+  
+        <div class="dashboard instagram">
+          <div class="d-icon">
+            <img src="images/icon-instagram.svg" alt="">
+            <div class="v-text">@realnathanf </div>
+          </div>
+          <div class="d-num">11K</div>
+          <div class="d-text">Followers</div>
+          <div class="icon-up"><img src="images/icon-up.svg" alt=""> 1099 Today</div>
+        </div>
+  
+        <div class="dashboard youtube">
+          <div class="d-icon">
+            <img src="images/icon-youtube.svg" alt="">
+            <div class="v-text">Nathan F.</div>
+          </div>
+          <div class="d-num">8239</div>
+          <div class="d-text">Subscribers</div>
+          <div class="icon-down"><img src="images/icon-down.svg" alt=""> 144 Today</div>
+        </div>
+  
+        <div class="view ">
+          Overview - Today
+        </div>
+  
+        <div class="overview v-1">
+          <div class="v-icon">
+            <div class="v-text">Page Views</div>
+            <img src="images/icon-facebook.svg" alt="">
+          </div>
+          <div class="v-rate">
+            <div class="v-num">87</div>
+            <div class="icon-up"><img src="images/icon-up.svg" alt="">3%</div>
+          </div>
+        </div>
+  
+        <div class="overview v-2">
+          <div class="v-icon">
+            <div class="v-text">Likes</div>
+            <img src="images/icon-facebook.svg" alt="">
+          </div>
+          <div class="v-rate"> 
+            <div class="v-num">52</div>
+            <div class="icon-down"><img src="images/icon-down.svg" alt=""> 2%</div>  
+          </div>
+        </div>
+  
+        <div class="overview v-3">
+          <div class="v-icon">
+            <div class="v-text">Likes</div>
+            <img src="images/icon-instagram.svg" alt="">
+          </div>
+          <div class="v-rate">
+            <div class="v-num">5462</div>
+            <div class="icon-up"><img src="images/icon-up.svg" alt="">2257%</div>  
+          </div>
+        </div>
+  
+        <div class="overview v-4">
+          <div class="v-icon">
+            <div class="v-text">Profile Views</div>
+            <img src="images/icon-instagram.svg" alt="">
+          </div>
+          <div class="v-rate">
+            <div class="v-num">52K</div>
+            <div class="icon-up"><img src="images/icon-up.svg" alt="">1375%</div>  
+          </div>
+        </div>
+  
+        <div class="overview v-5">
+          <div class="v-icon">
+            <div class="v-text">Retweets</div>
+            <img src="images/icon-twitter.svg" alt="">
+          </div>
+          <div class="v-rate">
+            <div class="v-num">117</div>
+            <div class="icon-up"><img src="images/icon-up.svg" alt="">303%</div>  
+          </div>
+        </div>
+  
+        <div class="overview v-6">
+          <div class="v-icon">
+            <div class="v-text">Likes</div>
+            <img src="images/icon-twitter.svg" alt="">
+          </div>
+          <div class="v-rate">
+            <div class="v-num">507</div>
+            <div class="icon-up"><img src="images/icon-up.svg" alt="">553%</div>  
+          </div>
+        </div>
+  
+        <div class="overview v-7">
+          <div class="v-icon">
+            <div class="v-text">Likes</div>
+            <img src="images/icon-youtube.svg" alt="">
+          </div>
+          <div class="v-rate">
+            <div class="v-num">107</div>
+            <div class="icon-down"><img src="images/icon-down.svg" alt=""> 19%</div>  
+          </div>
+        </div>
+  
+        <div class="overview v-8">
+          <div class="v-icon">
+            <div class="v-text">Total views</div>
+            <img src="images/icon-youtube.svg" alt="">
+          </div>
+          <div class="v-rate">
+            <div class="v-num">1407</div>
+            <div class="icon-down"><img src="images/icon-down.svg" alt=""> 12%</div>  
+          </div>
+        </div>
+
+      </div>  
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
